@@ -175,12 +175,20 @@ main > strong {
 
 h3{
     color: white;
-    background-image: linear-gradient(to right, var(--cor4), transparent);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
     
 }
 
-
-
+div img{
+    width: 320px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #00c2abb6;
+    border-radius: 15px;
+    
+    
+}
 
 
 footer {
