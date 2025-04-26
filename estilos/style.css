@@ -38,7 +38,7 @@ header h1{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 2em;
-    margin: 21px 30px;
+    margin: 10px 10px;
     padding:10px;
     text-align: center;
     
@@ -48,7 +48,7 @@ header p{
     font-family: var(--fonte-estilo);
     background-color: white;
     border-radius: 35px 2px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
 
@@ -99,10 +99,10 @@ main{
     max-width: 1000px ;
     margin: auto ;
     margin:10px 10px 10px 10px  ;
-    padding: 47px;
+    padding: 10px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-radius: 50px;
+    border-radius:10px;
 }
 
 
@@ -121,7 +121,7 @@ main h2{
 }
 
 main p{
-    margin:18px 26px;
+    margin:10px 10px;
     padding: 10px;
     text-align: justify;
     text-indent: 30px;
@@ -154,7 +154,7 @@ main ol{
     color: white;
     line-height: 2em;
     margin: 10px;
-    padding: 23px;
+    padding: 20px;
 }
 
 main ul{
@@ -188,7 +188,7 @@ footer {
     font-size: 1.5em;
     text-align: center;
     padding: 5px;
-    border-radius: 20px 10px;
+    border-radius: 10px 15px;
 
 }
 
