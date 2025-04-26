@@ -162,8 +162,8 @@ main ul{
     color: white;
     line-height: 2em;
     list-style-type: disc;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 main > strong {
