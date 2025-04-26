@@ -170,10 +170,11 @@ main ul{
     background-color: var(--cor5);
     color: white;
     line-height: 2em;
-    list-style-type: none;
-    margin: 5px;
-    padding: 5px;
+    list-style-type: square;
+    margin: 15px;
+    padding: 25px;
     border-top-right-radius: 25px;
+    
 }
 
 main > p > strong {
