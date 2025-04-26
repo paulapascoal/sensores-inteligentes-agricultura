@@ -5,11 +5,11 @@
 
 :root{
 
-    --cor1: #F29D05;
-    --cor2: #05F270;
-    --cor3: #389D65;
-    --cor4: #735F3C;
-    --cor5: #5E3C73;
+    --cor1: #0099ab;
+    --cor2: #00c2abc4;
+    --cor3: #7cd63d;
+    --cor4: #00e1d2ec;
+    --cor5: #1C6349;
 
     --fonte-padrao: 'Newreader',cursive ;
     --fonte-destaque: 'Libre-Baskerville',cursive;
@@ -32,14 +32,19 @@ body{
 }
 header{
     background-image: linear-gradient(to left, var(--cor3));
+    min: width 300px; ;
+    max-width: 1000px ;
+    margin:10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius:10px;
     
 }
 header h1{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 2em;
-    margin: 10px 10px;
-    padding:10px;
+    /*margin: 10px 10px;
+    padding:10px;*/
     text-align: center;
     
 }
@@ -115,8 +120,12 @@ main h1{
 }
 
 main h2{
-    color: whitesmoke;
-    background-image: linear-gradient(to bottom, var(--cor4));
+    color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor5));
+    text-align: center;
+    padding: 2px;
+    border-radius: 0px 21px 1px 17px;
+    font-size: 1.3em;
     
 }
 
@@ -150,7 +159,7 @@ main a:hover{
 }
 
 main ol{
-    background-color: var(--cor3);
+    background-color: var(--cor5);
     color: white;
     line-height: 2em;
     margin: 10px;
@@ -158,24 +167,28 @@ main ol{
 }
 
 main ul{
-    background-color: var(--cor3);
+    background-color: var(--cor5);
     color: white;
     line-height: 2em;
-    list-style-type: disc;
+    list-style-type: none;
     margin: 5px;
     padding: 5px;
+    border-top-right-radius: 25px;
 }
 
-main > strong {
+main > p > strong {
     font-weight: bold;
-    color: var(--cor3);
+    color: var(--cor1);
 
 }
 
 
 h3{
-    color: white;
-    background-image: linear-gradient(to right, var(--cor5), transparent);
+    color: ;
+    background-image: linear-gradient(to left, var(--cor2));
+    text-align: center;
+    border-radius: 21px 0px 17px 1px ;
+    padding: 2px;
     
 }
 
