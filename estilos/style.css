@@ -28,12 +28,12 @@
 
 body{
     background-color: var(--cor1);
+    margin: auto;
     
 }
 header{
     background-image: linear-gradient(to left, var(--cor3));
-    min: width 300px; ;
-    max-width: 1000px ;
+    width 300px; ;
     margin:10px 10px 10px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-radius:10px;
@@ -43,8 +43,8 @@ header h1{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 2em;
-    /*margin: 10px 10px;
-    padding:10px;*/
+    margin: 5px 5px;
+    padding: 5px;
     text-align: center;
     
 }
@@ -100,9 +100,8 @@ menu a:hover{
 
 
 main{
-    min: width 300px; ;
-    max-width: 1000px ;
-    margin: auto ;
+    width 300px; ;
+    margin: auto;
     margin:10px 10px 10px 10px  ;
     padding: 10px;
     background-color: white;
@@ -138,7 +137,6 @@ main p{
 }
 
 main > p > strong{
-    background-color: var(--cor3);
     color: whitesmoke;
     font-size: 2em;
     
@@ -180,7 +178,13 @@ main ul{
 main > p > strong {
     font-weight: bold;
     color: var(--cor1);
+    
 
+}
+
+.tempo{
+    text-align: center;
+    background-image: linear-gradient(to left, var(--cor3), transparent);
 }
 
 
@@ -200,6 +204,7 @@ div img{
     margin: auto;
     border: 1px solid #00c2abb6;
     border-radius: 15px;
+    
     
     
 }
